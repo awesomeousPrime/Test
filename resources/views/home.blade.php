@@ -1,17 +1,16 @@
-@extends('app')
+@extends('snippets/header')
 
 @section('content')
-<div class="container">
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="panel panel-default">
-				<div class="panel-heading">Home</div>
+        <div id="form_wrapper">
+            <form id="login_form">
+            <p><input type="text" name="username" placeholder="Username"></p>
+            <p><input type="password" name="password" placeholder="Password"></p>
+            <input type="Submit" value="Sign In">
+        </form>
+        </div>
+        <!--Fade in Div-->
+        <div id="fade_wrapper">
+            <img src="{{asset('/img/loading2.gif')}}">
+        </div>
+@stop
 
-				<div class="panel-body">
-					You are logged in!
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-@endsection
