@@ -2,6 +2,14 @@
   "private": true,
   "devDependencies": {
     "gulp": "^3.8.8",
-    "laravel-elixir": "*"
+    "laravel-elixir": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-image-optimization": "*"
+
   }
 }
