@@ -1,4 +1,4 @@
-@extends('snippets/header')
+@extends('app')
 
 @section('content')
         <div id="form_wrapper">

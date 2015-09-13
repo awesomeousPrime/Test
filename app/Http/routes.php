@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'LoginController@index');
+Route::post('/login', 'LoginController@validate');
 
 Route::get('home', 'HomeController@index');
 Route::get('about', 'HomeController@index');
