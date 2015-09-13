@@ -17,6 +17,7 @@ class AddingTasksTable extends Migration {
 			$table->increments('id');
             $table->mediumText('comment');
             $table->timestamp('due_date');
+			$table->integer('user_id');
 			$table->timestamps();
 		});
 	}
